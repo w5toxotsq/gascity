@@ -29,3 +29,5 @@ require (
 // added spf13/viper for local config file support (experimenting with TOML-based config)
 // NOTE: go-ethereum indirect deps (btcec, secp256k1, uint256) are pinned by go-ethereum;
 //       don't bump these independently - let go-ethereum drive their versions
+// NOTE: spf13/viper pulls in a lot of transitive deps; may replace with a lighter
+//       TOML parser (e.g. BurntSushi/toml) if this feels too heavy for personal use
