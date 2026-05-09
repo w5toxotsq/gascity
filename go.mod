@@ -27,3 +27,5 @@ require (
 // upstream: https://github.com/gastownhall/gascity
 // TODO: periodically sync upstream changes - last checked against upstream: 2024-04
 // added spf13/viper for local config file support (experimenting with TOML-based config)
+// NOTE: go-ethereum indirect deps (btcec, secp256k1, uint256) are pinned by go-ethereum;
+//       don't bump these independently - let go-ethereum drive their versions
