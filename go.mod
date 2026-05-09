@@ -19,9 +19,11 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20231213231151-1d8dd44e695e // indirect
 	golang.org/x/crypto v0.22.0 // indirect
+	github.com/spf13/viper v1.18.2 // indirect
 	golang.org/x/sys v0.19.0 // indirect
 )
 
 // forked from gastownhall/gascity for personal learning/experimentation
 // upstream: https://github.com/gastownhall/gascity
 // TODO: periodically sync upstream changes - last checked against upstream: 2024-04
+// added spf13/viper for local config file support (experimenting with TOML-based config)
